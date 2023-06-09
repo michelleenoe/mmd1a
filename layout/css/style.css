@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 body {
-    font-family: monospace;
+    font-family:'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:aliceblue;
+    background-color:#fff;
     text-align: center;
   }
   
@@ -17,7 +18,7 @@ body {
   
   /* Header-stilarter */
   header {
-    background-image: url(/img/sdfghj\,k_.png);
+    background-color: white;
     padding: 20px;
     text-align: center;
   }
@@ -74,15 +75,6 @@ body {
     margin: 0;
   }
   
-  /* Footer-stilarter */
-  footer {
-    background-image: url(/img/sdfghj\,k_.png);
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    margin-top: 40rem;
-  }
-  
   /* Responsivitet */
   @media screen and (max-width: 768px) {
     header {
@@ -122,7 +114,7 @@ body {
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color:#130e0e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -138,7 +130,7 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -147,7 +139,8 @@ body {
   
   .navbar a:hover,
   .dropdown:hover .dropbtn {
-    background-color: #130e0e;
+    color: #2e4bee;
+    text-decoration: underline;
   }
   
   .dropdown-content {
