@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forside</title>
-  <link rel="stylesheet" href="/layout/css/style.css">
-  <link rel="stylesheet" href="/layout/css/forside.css">
+  <title>FORSIDE</title>
+  <link rel="stylesheet" href="../layout/css/style.css">
+  <link rel="stylesheet" href="../layout/css/forside.css">
 </head>
 <body>
   <header>
-    <div class="navbar">
-      <a href="/undersider/index.html">FORSIDE</a>
-      <a href="/undersider/om.html">OM</a>
-      <a href="/undersider/kontakt.html">KONTAKT</a>
-      <div class="dropdown">
-        <button class="dropbtn">PROJEKTER
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="/undersider/tema_2.html">Tema 2</a>
-          <a href="/undersider/tema_3.html">Tema 3</a>
-          <a href="/undersider/tema_4.html">Tema 4</a>
-          <a href="/undersider/tema_5.html">Tema 5</a>
-        </div>
+      <div class="navbar">
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="../undersider/index.html">FORSIDE</a></li>
+          <li><a href="../undersider/om.html">OM</a></li>
+          <li><a href="../undersider/kontakt.html">KONTAKT</a></li>
+          <li><a href="../undersider/projekter.html">PROJEKTER</a></li>
+        </ul>
       </div>
-    </div>
+    
   </header>
-  <section class="sec1">
-    2023
+  
+  <section class="sec2">
+    <div class="container">
+      <img src="../img/FORSIDE.jpg">
+    </div>
   </section>
 
-  <section class="sec2">
-  <div class="container">
-          <img src="../img/FORSIDE.jpg"
-        </div>
-    </section>
-
   <footer>
-    <p>&copy; 2023 Min Portfolio. Alle rettigheder forbeholdt.</p>
+    <p>&copy; 2023 MICHELLE ENØE - ALLE RETTIGHEDER FORBEHOLDT</p>
   </footer>
-
-  <script src="/layout/js/index.js"></script>
+  
+  <script src="../layout/js/index.js"></script>
 </body>
 </html>
