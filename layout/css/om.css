@@ -22,10 +22,10 @@
   max-width: 500px;
   margin-left: 9rem;
   margin-right: 4rem;
-  padding-top: 7rem;
+  padding-top: 12rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .container {
     flex-direction: column;
   }

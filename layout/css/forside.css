@@ -1,4 +1,8 @@
 .sec2 img {
-
   width: 1000px;
+}
+@media screen and (max-width: 480px) {
+  .sec2 img {
+    width: 100%;
+  }
 }
