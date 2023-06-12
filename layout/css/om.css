@@ -3,26 +3,41 @@
   flex-direction: row;
 }
 
+
 .text {
   flex: 1;
-  margin-right: 20px;
-  max-width: 65ch;
   text-align: justify;
   margin-left: 10rem;
+  margin-right: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0.625rem;
 }
-h2 {
-  text-align: center !important;
-}
-.text h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+
 
 .image img {
   width: 100%;
   max-width: 500px;
-  margin-right: 10rem;
   margin-left: 9rem;
+  margin-right: 4rem;
+  padding-top: 7rem;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 
+  .text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .image img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+  }
+}
