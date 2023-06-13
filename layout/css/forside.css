@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 .sec2 img {
   width: 1000px;
-  padding-top:6%;
+  padding-top: 6%;
 }
+
 @media screen and (max-width: 480px) {
   .sec2 img {
     width: 100%;
+    padding-top: 0;
+  }
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Juster bredden efter behov */
+  margin: 0 auto;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.183); 
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.text-overlay h1 {
+  font-size: 119px; /* Juster fontstørrelsen efter behov */
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .text-overlay h1 {
+    font-size: 48px; /* Juster fontstørrelsen efter behov */
   }
 }

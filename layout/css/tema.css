@@ -15,13 +15,22 @@
 
 .logo {
   margin: 2rem;
-}
 
+}
+.logo1
+{
+  scale:60%;
+}
 li {
   list-style-type: none;
 }
-
-
+h3, .link p {
+  font-weight: 400;
+  color:black;
+}
+.local-menu, .link {
+  font-style: italic;
+}
 
 .container1 img,
 .container2 img,
@@ -38,7 +47,6 @@ li {
 .img10 img {
   max-width: 100%;
   height: 35rem;
-  width: auto;
 scale:90%;
 }
 
@@ -75,4 +83,22 @@ scale:90%;
 .text, .concept {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 880px) {
+  .container1 img,
+  .container2 img,
+  .container3 img,
+  .container4 img,
+  .container5 img,
+  .img1 img,
+  .img2 img,
+  .img3 img,
+  .img5 img,
+  .img6 img,
+  .img8 img,
+  .img9 img,
+  .img10 img {
+    height: auto;
+  }
 }
