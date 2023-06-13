@@ -1,4 +1,3 @@
-
 .text {
   padding: 2rem;
   text-align: justify;
@@ -8,27 +7,28 @@
   text-align: center;
 }
 
-.link a, a {
+.link a,
+a {
   text-align: center;
   font-size: 1rem;
 }
 
 .logo {
   margin: 2rem;
-
 }
-.logo1
-{
-  scale:60%;
+.logo1 {
+  scale: 60%;
 }
 li {
   list-style-type: none;
 }
-h3, .link p {
+h3,
+.link p {
   font-weight: 400;
-  color:black;
+  color: black;
 }
-.local-menu, .link {
+.local-menu,
+.link {
   font-style: italic;
 }
 
@@ -47,10 +47,8 @@ h3, .link p {
 .img10 img {
   max-width: 100%;
   height: 35rem;
-scale:90%;
+  scale: 90%;
 }
-
-
 
 .container2 {
   display: block;
@@ -79,8 +77,8 @@ scale:90%;
   padding: 2rem;
 }
 
-
-.text, .concept {
+.text,
+.concept {
   max-width: 1000px;
   margin: 0 auto;
 }
