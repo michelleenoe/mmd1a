@@ -8,8 +8,9 @@
   text-align: center;
 }
 
-.link {
+.link a, a {
   text-align: center;
+  font-size: 1rem;
 }
 
 .logo {
@@ -70,10 +71,6 @@ scale:90%;
   padding: 2rem;
 }
 
-a {
-  text-align: center;
-  font-size: 1.8rem;
-}
 
 .text, .concept {
   max-width: 1000px;

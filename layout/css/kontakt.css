@@ -7,7 +7,7 @@ section {
 .contact-links {
   list-style-type: none;
   padding: 0;
-font-size: 2rem;
+font-size: 1rem;
 }
 
 .contact-links li {
@@ -26,4 +26,9 @@ font-size: 2rem;
 footer {
   text-align: center;
   padding: 10px;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+
 }
