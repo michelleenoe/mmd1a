@@ -136,7 +136,7 @@ a {
 }
 
 a:hover {
-  color: #1012b6;
+  color: #676565;
   text-decoration: underline;
 }
 
@@ -172,13 +172,14 @@ a:hover {
 
   #menu a:hover {
     text-decoration-line: underline;
-    color: #1012b6;
+    color:#676565;
   }
 
   .hidden {
     transform: translateX(-100%);
     opacity: 0;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
