@@ -14,6 +14,6 @@ function toggleMenu() {
   if (erSkjult == true) {
     document.querySelector("#menuknap").textContent = "☰";
   } else {
-    document.querySelector("#menuknap").textContent = "back";
+    document.querySelector("#menuknap").textContent = "☰";
   }
 }
