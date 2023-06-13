@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 main {
   margin: 2rem;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fff;
@@ -12,21 +13,26 @@ body {
   font-weight: lighter;
 }
 
- h2, h3 {
+h2,
+h3 {
   color: #333;
   font-weight: lighter;
 }
 
-
-h1, h3, h4, h5, a, footer, .local-menu .p {
+h1,
+h3,
+h4,
+h5,
+a,
+footer,
+.local-menu .p {
   font-family: Poppins, sans-serif;
   text-align: center;
   font-weight: lighter;
 }
 
-
 h2 {
-  color:black;
+  color: black;
 }
 
 h1 {
@@ -42,7 +48,7 @@ p {
   color: #666;
   line-height: 1.5;
   margin-bottom: 0.625rem;
-  font-size:1rem;
+  font-size: 1rem;
 }
 
 header {
@@ -63,8 +69,7 @@ nav a {
   text-decoration: none;
   color: #666;
   font-weight: bold;
-  padding-top:0;
-  
+  padding-top: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,7 +108,6 @@ nav a {
   text-decoration: none;
   border-radius: 0.3125rem;
 }
-
 
 section {
   margin-bottom: 1.25rem;
@@ -172,7 +176,6 @@ a:hover {
   }
 
   .hidden {
-
     transform: translateX(-100%);
     opacity: 0;
   }
