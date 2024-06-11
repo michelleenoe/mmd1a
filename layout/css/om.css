@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.text {
+  flex: 1;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 1rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-bottom: 0.625rem;
+}
+
+
+.image img {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 9rem;
+  margin-right: 4rem;
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 968px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .image img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+.link {
+  font-style: italic;
+}
